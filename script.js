@@ -15,12 +15,16 @@ btn.forEach((btn) =>{
             btn.style.color = "blue";
             turn = "p2";
             console.log("Player 2 turn");
+                                btn.disabled = true;
+
         }
         else{
             btn.innerText = "O";
             btn.style.color = "red";
             turn = "p1";
             console.log("Player 1 turn");
+                                btn.disabled = true;
+
 
         }
         checkWinner();
