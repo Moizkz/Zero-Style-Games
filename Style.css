@@ -114,6 +114,7 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-top: 15%;
+    transform: scale(0.9);
 }
 .btn{
     background-color: #00000080;
@@ -122,5 +123,8 @@ body{
     border-radius: 20px;
     border: none;
     font-size: 40px;
+}
+.container{
+    bottom: 8%;
 }
 }
